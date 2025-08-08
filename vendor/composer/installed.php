@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'sergey/whatsapp-stream-encryptor',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'nauman_sergey/whatsapp-stream-encryptor',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '75fcca535ff7eaaea5ca318cbc1d6fbd69719ec8',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -27,6 +27,15 @@
             'install_path' => __DIR__ . '/../myclabs/deep-copy',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'nauman_sergey/whatsapp-stream-encryptor' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '75fcca535ff7eaaea5ca318cbc1d6fbd69719ec8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
             'pretty_version' => 'v5.6.0',
@@ -282,15 +291,6 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'dev_requirement' => true,
-        ),
-        'sergey/whatsapp-stream-encryptor' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.2.3',

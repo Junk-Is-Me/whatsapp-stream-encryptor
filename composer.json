@@ -1,31 +1,31 @@
 {
-  "name": "nauman_sergey/whatsapp-stream-encryptor",
-  "description": "PSR-7 декораторы для шифрования и дешифрования WhatsApp",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Sergey Nauman",
-      "email": "sergejorlov631@gmail.com"
-    }
-  ],
-  "require": {
-    "php": ">=7.4",
-    "guzzlehttp/psr7": "^2.0 || ^3.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^10.5"
-  },
-  "autoload": {
-    "psr-4": {
-      "Sergey\\WhatsappStreamEncryptor\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Sergey\\WhatsappStreamEncryptor\\Tests\\": "tests/"
-    }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+    "name": "nauman_sergey/whatsapp-stream-encryptor",
+    "description": "PSR-7 декораторы для шифрования и дешифрования WhatsApp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Nauman",
+            "email": "sergejorlov631@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/psr7": "^2.0 || ^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sergey\\WhatsappStreamEncryptor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sergey\\WhatsappStreamEncryptor\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
