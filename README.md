@@ -11,7 +11,7 @@ PSR-7 декораторы для шифрования и дешифровани
 ## Установка
 
 ```bash
-composer require sergey/whatsapp-stream-encryptor
+composer require nauman_sergey/whatsapp-stream-encryptor
 ```
 
 ## Использование
@@ -89,3 +89,4 @@ composer install
 MIT
 
 ---
+
