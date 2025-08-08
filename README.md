@@ -6,7 +6,8 @@ PSR-7 декораторы для шифрования и дешифровани
 
 - Шифрование и дешифрование медиафайлов WhatsApp (IMAGE, VIDEO, AUDIO, DOCUMENT)
 - Генерация sidecar-файлов для стриминга (поддержка WhatsApp-совместимого формата)
-- Промышленное качество кода и тесты
+⚠️ Предупреждение: sidecar нестабилен
+Генерация sidecar-файла реализована, но результат может не совпадать с оригиналом, ожидаемым WhatsApp.
 
 ## Установка
 
@@ -66,6 +67,8 @@ file_put_contents('output.sidecar', $sidecar);
 
 ```bash
 composer install
+composer require --dev phpunit/phpunit
+cd vendor/nauman_sergey/whatsapp-stream-encryptor
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/
 ```
 
@@ -89,4 +92,5 @@ composer install
 MIT
 
 ---
+
 
