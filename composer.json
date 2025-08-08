@@ -1,5 +1,5 @@
 {
-  "name": "sergey/whatsapp-stream-encryptor",
+  "name": "nauman_sergey/whatsapp-stream-encryptor",
   "description": "PSR-7 декораторы для шифрования и дешифрования WhatsApp",
   "type": "library",
   "license": "MIT",
